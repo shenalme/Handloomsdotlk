@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Digitalising Heritage Handlooms — a research project connecting Sri Lankan handloom heritage, contemporary design and digital access.">
+  <title>Digitalising Heritage Handlooms | BC–CTC–2024</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Digitalising Heritage Handlooms home"><span class="brand-mark">EH</span><span>EMPOWERING<br>HANDLOOM ARTISTRY</span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav" aria-label="Primary navigation">
+    <a href="#explore">Explore</a><a href="#collection">Collection</a><a href="#digital">Digital</a><a href="#exchange">Exchange</a><a href="#research">Research</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="top" class="hero">
+    <picture>
+      <source media="(max-width: 700px)" srcset="assets/images/hero-mobile.webp">
+      <img class="hero-image" src="assets/images/hero.webp" alt="Handloom textiles and fashion garments displayed in a research exhibition" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">BC–CTC–2024 · SRI LANKA × UK</p>
+      <h1>Digitalising<br><em>Heritage</em><br>Handlooms.</h1>
+      <p class="hero-lede">Sri Lankan handloom knowledge explored through fieldwork, fashion design, digital twins and international exchange.</p>
+      <a class="button button-light" href="#digital">Explore digital twins <span>↓</span></a>
+    </div>
+    <div class="hero-caption">HERITAGE → DESIGN → DIGITAL → EXCHANGE</div>
+  </section>
+
+  <section class="intro section-pad">
+    <div class="section-label">01 / PROJECT</div>
+    <div class="intro-grid">
+      <h2>Living heritage,<br><em>new digital access.</em></h2>
+      <div><p>University of Moratuwa, Cardiff Metropolitan University and the University of Reading explored Sri Lankan handloom through field research, textile development, fashion design and digitalisation.</p><p class="small">Funded by British Council Connections Through Culture.</p></div>
+    </div>
+  </section>
+
+  <section class="metrics dark-section">
+    <div class="section-pad metric-grid">
+      <div><strong>5</strong><span>provinces</span></div><div><strong>15</strong><span>handloom centres</span></div><div><strong>6</strong><span>fashion outfits</span></div><div><strong>3</strong><span>university partners</span></div><div><strong>3D</strong><span>digital twins</span></div>
+    </div>
+  </section>
+
+  <section id="explore" class="section-pad explore">
+    <div class="section-label">02 / HERITAGE</div>
+    <div class="section-head">
+      <div><h2>Fifteen centres.<br><em>One textile field.</em></h2><p>Five provinces, documenting techniques, materials, patterns, colour and artisan knowledge.</p></div>
+      <div class="filter-wrap"><label for="provinceFilter">Filter</label><select id="provinceFilter"><option value="all">All provinces</option><option>Central</option><option>North-western</option><option>Southern</option><option>Eastern</option><option>Northern</option></select></div>
+    </div>
+    <div id="centres" class="centre-grid" aria-live="polite"></div>
+  </section>
+
+  <section class="image-break">
+    <img loading="lazy" decoding="async" src="assets/images/img-063.jpg" alt="Sri Lankan handloom textile samples">
+    <div class="image-break-copy"><span>TEXTILE KNOWLEDGE</span><strong>Material, technique, colour and pattern become design knowledge.</strong></div>
+  </section>
+
+  <section id="collection" class="section-pad collection">
+    <div class="section-label">03 / DESIGN</div>
+    <div class="section-head two-col"><h2>From textile<br>to <em>fashion.</em></h2><p>High-resolution textile scans informed a six-outfit range. AI-assisted concepts were followed by technical review, prototype development and quality assurance.</p></div>
+    <div class="collection-feature">
+      <div class="collection-image"><img loading="lazy" decoding="async" src="assets/images/img-070.jpg" alt="Fashion collection developed from Sri Lankan handloom textiles"></div>
+      <div class="process-list"><div><b>SCAN</b><span>Record surface and structure.</span></div><div><b>TRANSLATE</b><span>Move colour, motif and texture into silhouette.</span></div><div><b>PROTOTYPE</b><span>Test drape, cutting and fabric behaviour.</span></div><div><b>REFINE</b><span>Resolve placement, finishing and wearability.</span></div></div>
+    </div>
+    <div class="outfit-strip"><figure><img loading="lazy" decoding="async" src="assets/images/img-081.jpg" alt="Outfit 01"><figcaption>01</figcaption></figure><figure><img loading="lazy" decoding="async" src="assets/images/img-082.jpg" alt="Outfit 02"><figcaption>02</figcaption></figure><figure><img loading="lazy" decoding="async" src="assets/images/img-084.jpg" alt="Outfit 03"><figcaption>03</figcaption></figure><figure><img loading="lazy" decoding="async" src="assets/images/img-086.jpg" alt="Outfit 04"><figcaption>04</figcaption></figure><figure><img loading="lazy" decoding="async" src="assets/images/img-088.jpg" alt="Outfit 05"><figcaption>05</figcaption></figure><figure><img loading="lazy" decoding="async" src="assets/images/img-090.jpg" alt="Outfit 06"><figcaption>06</figcaption></figure></div>
+  </section>
+
+  <section id="digital" class="digital dark-section">
+    <div class="section-pad">
+      <div class="section-label">04 / DIGITAL</div>
+      <div class="section-head digital-head">
+        <div><h2>Material heritage,<br><em>as a digital twin.</em></h2><p>Interactive 3D models extend access for research, teaching and interpretation.</p></div>
+        <div class="digital-note"><span>ON DEMAND</span><p>The GLB is not downloaded when the page opens. Click to load it when you want to explore.</p></div>
+      </div>
+      <div class="digital-lab">
+        <div class="viewer-shell" id="viewerShell">
+          <div class="viewer-poster" id="viewerPoster">
+            <img loading="lazy" decoding="async" src="assets/images/img-113.jpg" alt="Preview image for the digital twin">
+            <div class="viewer-poster-overlay">
+              <span class="mono">3D DIGITAL TWIN · 22 MB</span>
+              <h3>Explore the garment in 3D.</h3>
+              <p>The viewer library and GLB are requested only after you choose to load the model.</p>
+              <button id="loadModel" class="button button-light" type="button">Load 3D twin</button>
+              <p id="viewerStatus" class="viewer-status" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="viewer-stage" id="viewerStage" hidden></div>
+        </div>
+        <aside class="viewer-side"><span class="mono">DIGITAL / 01</span><h3>Digitalisation as research infrastructure.</h3><p>A second access point to material culture — without replacing the textile, maker or context.</p><div class="viewer-features"><span>ROTATE</span><span>ZOOM</span><span>RESET</span></div></aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad fieldwork">
+    <div class="section-label">05 / FIELDWORK</div>
+    <div class="fieldwork-intro"><h2>Practice<br>before <em>pixels.</em></h2><p>Observation, artisan profiling, interviews, sample development and production visits established the knowledge base for later design and digital work.</p></div>
+    <div class="fieldwork-grid"><div class="field-photo tall"><img loading="lazy" decoding="async" src="assets/images/img-014.jpg" alt="Handloom weaving centre in Sri Lanka"></div><div class="field-photo"><img loading="lazy" decoding="async" src="assets/images/img-021.jpg" alt="Research team at a handloom centre"></div><div class="field-photo"><img loading="lazy" decoding="async" src="assets/images/img-028.jpg" alt="Research discussion with handloom practitioners"></div><div class="field-photo wide"><img loading="lazy" decoding="async" src="assets/images/img-027.jpg" alt="Handloom awards at a weaving centre"></div><div class="field-copy"><span class="mono">HERITAGE → DESIGN</span><p>Artisan knowledge and local textile identities informed the collection and its digital representation.</p></div></div>
+  </section>
+
+  <section id="exchange" class="exchange dark-section">
+    <div class="section-pad">
+      <div class="section-label">06 / EXCHANGE</div>
+      <div class="exchange-intro"><h2>Sri Lanka <span>→</span> Cardiff <span>→</span> Wales <span>→</span> Reading <span>→</span> London</h2><p>Exhibition, comparative visits and dialogue connected craft heritage across contexts.</p></div>
+      <div class="timeline">
+        <article><div class="timeline-media"><img loading="lazy" decoding="async" src="assets/images/img-099.jpg" alt="Threaded Heritage exhibition"></div><div><span>CARDIFF · THREADED HERITAGE</span><h3>Physical + digital</h3><p>Handloom fabrics and garments were presented with digital twins and interactive experiences.</p></div></article>
+        <article><div class="timeline-media"><img loading="lazy" decoding="async" src="assets/images/img-122.jpg" alt="Research visit to a Welsh textile site"></div><div><span>WALES · COMPARATIVE VISITS</span><h3>Craft in another context</h3><p>Welsh heritage and weaving sites opened comparison around materials, practice, markets and digitalisation.</p></div></article>
+        <article><div class="timeline-media"><img loading="lazy" decoding="async" src="assets/images/img-129.jpg" alt="University of Reading showcase"></div><div><span>READING · SHOWCASE</span><h3>Research exchange</h3><p>The project continued through exhibition, seminar and cross-cultural knowledge exchange.</p></div></article>
+        <article><div class="timeline-media"><img loading="lazy" decoding="async" src="assets/images/img-132.jpg" alt="Round table at the Sri Lanka High Commission in London"></div><div><span>LONDON · 22 SEP 2025</span><h3>Craft beyond the exhibition</h3><p>A round table connected academics, experts, entrepreneurs, retailers, writers, students and craft enthusiasts.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="section-pad research">
+    <div class="section-label">07 / RESEARCH</div>
+    <div class="research-grid"><div><h2>Heritage.<br>Design.<br><em>Digital.</em></h2></div><div><p class="lead">How can handloom remain living knowledge while gaining new forms of access, design value and visibility?</p><div class="research-cards"><article><span>INDUSTRY</span><h3>Understand</h3><p>Challenges and opportunities in Sri Lanka's handloom industry.</p></article><article><span>DESIGN</span><h3>Develop</h3><p>Textile and fashion outcomes with artisans at the core.</p></article><article><span>COLLABORATION</span><h3>Connect</h3><p>Designer–artisan knowledge sharing and co-creation.</p></article><article><span>DIGITAL</span><h3>Extend access</h3><p>Interactive access to craft in cyberspace.</p></article></div></div></div>
+    <div class="method-line"><span>FIELDWORK</span><b>→</b><span>TEXTILES</span><b>→</b><span>DESIGN</span><b>→</b><span>DIGITAL TWINS</span><b>→</b><span>EXHIBITION</span><b>→</b><span>PERCEPTION</span></div>
+    <div class="perception-card"><div><span class="mono">CHILD STUDY</span><h3>Perception adds another layer to the digital archive.</h3></div><div><p>A parallel Cardiff study examined visual engagement with Sri Lankan handloom garments, including colour, design and outfit preference.</p><a class="arrow-link" href="study/index.html">Open study module <span>→</span></a></div></div>
+  </section>
+
+  <section class="image-break split-break"><div><img loading="lazy" decoding="async" src="assets/images/img-104.jpg" alt="Threaded Heritage exhibition display"></div><div><img loading="lazy" decoding="async" src="assets/images/img-140.jpg" alt="Media coverage of Sri Lankan handloom research"></div><div class="image-break-copy"><span>DISSEMINATION</span><strong>Exhibition · workshop · media · dialogue</strong></div></section>
+
+  <section class="section-pad project" id="project">
+    <div class="section-label">08 / PROJECT RECORD</div>
+    <div class="project-head"><h2>Empowering Handloom Artistry:<br><em>A Digital Approach to Globalize the Heritage Handloom Industry in Sri Lanka</em></h2></div>
+    <div class="project-columns"><div><p class="lead">Funded through British Council Connections Through Culture, the project combined Sri Lankan handloom research with UK expertise in digitalisation, design and accessibility.</p><p>Research moved from field visits and textile sampling to fashion development, digital models, exhibitions and knowledge exchange.</p></div><details><summary>Research team</summary><ul><li>Dr. Sumith Gopura — University of Moratuwa</li><li>Dr. Ayesha Wickramasinghe — University of Moratuwa</li><li>Prof. Chaminda Hewage — Cardiff Metropolitan University</li><li>Dr. Tharindu Liyanagunawardena — University of Reading</li><li>Kavindu Dharmakeerthi — Research Assistant, UoM</li><li>Senal Dharmasiri — Research Assistant, Cardiff Met</li></ul></details></div>
+    <div class="partners"><span>UNIVERSITY OF MORATUWA</span><span>CARDIFF METROPOLITAN UNIVERSITY</span><span>UNIVERSITY OF READING</span><span>BRITISH COUNCIL · CONNECTIONS THROUGH CULTURE</span><span>MINISTRY OF INDUSTRIAL DEVELOPMENT</span><span>SRI LANKA HIGH COMMISSION · LONDON</span></div>
+  </section>
+</main>
+
+<footer class="footer dark-section"><div class="section-pad footer-grid"><div><span class="brand-mark">EH</span><h2>Digitalising heritage.<br><em>Keeping the loom in the conversation.</em></h2></div><div class="footer-links"><a href="#explore">Heritage</a><a href="#collection">Design</a><a href="#digital">Digital twins</a><a href="#research">Research</a></div><div class="footer-meta"><p>GitHub Pages research archive</p><p>BC–CTC–2024</p></div></div><div class="footer-bottom"><span>© Research project archive</span><span>Digital heritage interface</span></div></footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
